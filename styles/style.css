@@ -16,7 +16,7 @@ html {
   block-size: 100%;
   margin: 0 auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -51,13 +51,12 @@ button {
 
 .content {
   display: grid;
-  grid-auto-flow: column; 
+  grid-auto-flow: column;
   align-items: end;
   width: 1140px;
   grid-template-columns: 717px 423px;
   grid-template-rows: 1fr auto;
   margin-bottom: 107px;
-
 }
 
 .result {
@@ -82,12 +81,9 @@ button {
   gap: 20px;
 }
 
-
-
 .content__details {
   grid-area: 1 / 2 / 3 / 3;
   margin-left: 25px;
-  
 }
 
 .title {
@@ -96,36 +92,39 @@ button {
   font-weight: 700;
   line-height: 94%;
   color: #fff;
-  font-family: Oswald , 'sans-serif';
+  font-family: Oswald, "sans-serif";
   text-transform: uppercase;
 }
 
-.title span:first-child{
+.title span:first-child {
   color: #545050;
 }
 
 .content__list-container {
   position: relative;
   height: 298px;
-  overflow: auto
+  overflow: auto;
 }
 
 .content__list {
   display: block;
 }
 
-
 .content__list-item {
- margin-bottom: 30px;
- padding: 0px 3px;
- position: relative;
+  margin-bottom: 30px;
+  padding: 0px 3px;
+  position: relative;
+}
+
+.content__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .content__card-link:hover {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
-            
+
 .content__video-card {
   display: flex;
   align-items: flex-start;
@@ -133,12 +132,17 @@ button {
   gap: 10px;
 }
 
-.content__card-link_current{
+.content__card-link_current {
   background-color: #545050;
 }
 
 .content__card-link_current .content__video-card {
   background-color: inherit;
+}
+
+.content__card-link:active,
+.content__card-link:active .content__video-card {
+  background-color: #545050;
 }
 
 .content__video-card-thumbnail {
@@ -147,7 +151,6 @@ button {
   object-position: center;
   width: 194px;
   height: 103px;
-
 }
 
 .content__video-card-description-container {
@@ -155,11 +158,10 @@ button {
   overflow: hidden;
   display: inline;
   width: 100%;
-  
 }
 
 .content__video-card-description {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 90%;
@@ -171,7 +173,7 @@ button {
 }
 
 .button {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   background-color: transparent;
   color: #fff;
   border: 1px solid currentColor;
@@ -188,13 +190,14 @@ button {
 }
 
 .more-button {
-  padding: 6px;       
+  padding: 6px;
   width: 100%;
+  margin-top: 30px;
 }
 
 .button:hover {
   text-decoration: underline;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .button:active {
@@ -213,11 +216,11 @@ button {
 .search-form__fieldset-title {
   font-size: 18px;
   font-weight: 400;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   margin-bottom: 2px;
 }
 
-.visually-hidden  {
+.visually-hidden {
   position: absolute;
   inline-size: 1px;
   block-size: 1px;
@@ -225,7 +228,7 @@ button {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
-  }
+}
 
 .search-form__textfield {
   all: unset;
@@ -235,7 +238,7 @@ button {
   width: 225px;
   height: 27px;
   font-size: 18px;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   appearance: none;
 }
 
@@ -244,27 +247,24 @@ button {
   outline-offset: -1px;
 }
 
-
-
 .content__card-link {
   text-decoration: none;
   color: #fff;
 }
 
 .content__video-card-title {
-font-family: Oswald, 'sans-serif';
-font-weight: 700;
-font-size: 30px;
-line-height: 100%;
-text-transform: uppercase;
-color: #fff;
-text-overflow: ellipsis;
-white-space: nowrap;
-overflow: hidden;
-width: 100%;
-padding-bottom: 5px;
+  font-family: Oswald, "sans-serif";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 5px;
 }
-
 
 .search-form__label {
   display: flex;
@@ -277,14 +277,12 @@ padding-bottom: 5px;
   cursor: text;
 }
 
-
 .search-form__checkbox-list {
   display: flex;
   align-items: start;
   justify-content: start;
   gap: 15px;
 }
-  
 
 .search-form__label-text {
   font-size: 18px;
@@ -305,7 +303,7 @@ padding-bottom: 5px;
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 15px; 
+  width: 15px;
   height: 15px;
   background-color: #fff;
   transform: translate(-50%, -50%);
@@ -316,24 +314,18 @@ padding-bottom: 5px;
   opacity: 1;
 }
 
-
-
 .search-form__label:hover {
- cursor: pointer;
+  cursor: pointer;
 }
 
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
-  
 }
-
-
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 2px;
 }
-
 
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
@@ -345,5 +337,5 @@ padding-bottom: 5px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
