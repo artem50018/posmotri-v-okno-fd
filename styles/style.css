@@ -16,7 +16,7 @@ html {
   block-size: 100%;
   margin: 0 auto;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -92,7 +92,7 @@ button {
   font-weight: 700;
   line-height: 94%;
   color: #fff;
-  font-family: Oswald, "sans-serif";
+  font-family: Oswald, 'sans-serif';
   text-transform: uppercase;
 }
 
@@ -161,7 +161,7 @@ button {
 }
 
 .content__video-card-description {
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 90%;
@@ -173,7 +173,7 @@ button {
 }
 
 .button {
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   background-color: transparent;
   color: #fff;
   border: 1px solid currentColor;
@@ -216,7 +216,7 @@ button {
 .search-form__fieldset-title {
   font-size: 18px;
   font-weight: 400;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   margin-bottom: 2px;
 }
 
@@ -238,7 +238,7 @@ button {
   width: 225px;
   height: 27px;
   font-size: 18px;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   appearance: none;
 }
 
@@ -253,7 +253,7 @@ button {
 }
 
 .content__video-card-title {
-  font-family: Oswald, "sans-serif";
+  font-family: Oswald, 'sans-serif';
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
