@@ -14,7 +14,7 @@ html {
   align-items: center;
   inline-size: 1200px;
   block-size: 100%;
-  margin: 304px auto;
+  margin: 0 auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -54,10 +54,10 @@ button {
   grid-auto-flow: column; 
   align-items: end;
   width: 1140px;
-  grid-template-columns: 717px 430px;
+  grid-template-columns: 717px 423px;
   grid-template-rows: 1fr auto;
-  margin-bottom: 300px;
-  
+  margin-bottom: 107px;
+
 }
 
 .result {
@@ -73,7 +73,6 @@ button {
   object-fit: cover;
   width: 711px;
   height: 386px;
-  margin-left: 6px;
 }
 
 .search-form {
@@ -87,7 +86,7 @@ button {
 
 .content__details {
   grid-area: 1 / 2 / 3 / 3;
-  margin-left: 30px;
+  margin-left: 25px;
   
 }
 
@@ -122,7 +121,7 @@ button {
  position: relative;
 }
 
-.content__list-item:hover {
+.content__card-link:hover {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
@@ -175,7 +174,7 @@ button {
   font-family: 'Fira Sans Condensed', sans-serif;
   background-color: transparent;
   color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
@@ -185,6 +184,7 @@ button {
   align-self: flex-end;
   min-height: 34px;
   width: 194px;
+  margin-right: 6px;
 }
 
 .more-button {
@@ -215,11 +215,8 @@ button {
   font-weight: 400;
   font-family: 'Fira Sans Condensed', sans-serif;
   margin-bottom: 2px;
-  margin-left: 9px;
 }
-.search-form__fieldset {
-  width: 232px;
-}
+
 .visually-hidden  {
   position: absolute;
   inline-size: 1px;
@@ -232,15 +229,14 @@ button {
 
 .search-form__textfield {
   all: unset;
-  color: rgba(255, 255, 255, 0.7);
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  width: 100%;
+  color: #fff;
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  width: 225px;
   height: 27px;
   font-size: 18px;
   font-family: 'Fira Sans Condensed', sans-serif;
   appearance: none;
-  margin-left: 7px;
 }
 
 .search-form__textfield:active {
@@ -272,6 +268,7 @@ padding-bottom: 5px;
 
 .search-form__label {
   display: flex;
+  align-items: center;
   gap: 5px;
   margin-top: 2px;
 }
@@ -283,10 +280,11 @@ padding-bottom: 5px;
 
 .search-form__checkbox-list {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
   gap: 15px;
 }
+  
 
 .search-form__label-text {
   font-size: 18px;
